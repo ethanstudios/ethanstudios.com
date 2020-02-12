@@ -9,22 +9,32 @@
 		.overlay {
 			width: 100%;
 			height: 100%;
-			max-width: 95vw;
-            max-height: 95vh;
 			text-align: center;
 			float: center;
 			vertical-align: center;
 			z-index: 1;
-			
-			
+
+
+
+
 			background-color: rgb(0, 0, 0);
 			background-color: rgba(0, 0, 0, 0.9);
+			opacity: 0;
+
+			transition: 1.5s;
 		}
 
-	    {
+		@media screen {
 
-			
+			.overlay div {
+				max-width: 90vw;
+                max-height: 90vh;
+
+
+			}
 		}
+
+	    
 	</style>
     <title>Ethan's Racing Game</title>
     <script src="Build/UnityLoader.js"></script>
