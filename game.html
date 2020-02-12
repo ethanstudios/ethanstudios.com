@@ -8,7 +8,8 @@
 	<style>
     
 		.overlay {
-			
+			width: 100%;
+			height: 100%;
 			text-align: center;
 			float: center;
 			vertical-align: center;
@@ -28,9 +29,7 @@
 
 			.overlay canvas {
 				max-width: 90vw;
-                max-height: 100vh;
-				height: "100%";
-				width: "auto";
+                max-height: 90vh;
 			    
 
 
@@ -45,7 +44,7 @@
       var gameInstance = UnityLoader.instantiate("gameContainer", "Build/webjl 12-02-2020.json");
     </script>
   </head>
-  <body>
+  <body id="body" class="overlay" width="auto" height="auto">
   <div id="header">
 
 
@@ -53,6 +52,6 @@
 
 	</div>
   
-    <div id="gameContainer" class="overlay" width="100%" height="100%"></div>
+    <div id="gameContainer" class="overlay" ></div>
   </body>
 </html>
