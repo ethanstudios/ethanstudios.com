@@ -1,0 +1,182 @@
+/*THIS CODE IS PROPERTY OF ETHAN STOCKTON*/
+
+
+/*body{ 
+        
+
+    
+  
+background:url("images/EthanStudiosLogo2.ico");
+
+-webkit-background-size: cover;
+
+-moz-background-size: cover;
+
+-o-background-size: cover;
+
+background-size: cover;
+
+background-repeat: repeat-y;
+
+border:#000000 solid 20px;
+
+margin:0px
+
+}*/
+
+/*THIS CODE IS PROPERTY OF ETHAN STOCKTON*/
+body{ 
+        
+
+  /*THIS CODE IS PROPERTY OF ETHAN STOCKTON*/  
+  
+background-color:#000000;
+
+/*THIS CODE IS PROPERTY OF ETHAN STOCKTON*/
+
+border:#000000 solid 20px;
+/*THIS CODE IS PROPERTY OF ETHAN STOCKTON*/
+margin:0px
+/*THIS CODE IS PROPERTY OF ETHAN STOCKTON*/
+}.glow-on-hover {
+    width: 150px;
+    height: 30px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    opacity: 1;
+}/*THIS CODE IS PROPERTY OF ETHAN STOCKTON*/
+.glow-on-hover:before {
+    content: '';
+    background: #ff7300;
+    position: absolute;
+    top: -3px;
+    left:-3px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(3px);
+    width: calc(100% + 6px);
+    height: calc(100% + 6px);
+    animation: glowing 40s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}/*THIS CODE IS PROPERTY OF ETHAN STOCKTON*/
+.glow-on-hover:active {
+    color: #000
+}/*THIS CODE IS PROPERTY OF ETHAN STOCKTON*/
+.glow-on-hover:before {
+    opacity: 1;
+}/*THIS CODE IS PROPERTY OF ETHAN STOCKTON*/
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}/*THIS CODE IS PROPERTY OF ETHAN STOCKTON*/
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 0 60px; }
+    100% { background-position: 0 0; }
+}
+/*THIS CODE IS PROPERTY OF ETHAN STOCKTON*/
+
+
+/*.glow-on-hover {
+    width: 110px;
+    height: 30px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    opacity: 1;
+}
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(0deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -3px;
+    left:-3px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(7px);
+    width: calc(100% + 6px);
+    height: calc(100% + 6px);
+    animation: glowing 40s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+.glow-on-hover:active {
+    color: #000
+}
+.glow-on-hover:before {
+    opacity: 1;
+}
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 0 60px; }
+    100% { background-position: 0 0; }
+}*/
+
+
+/*THIS CODE IS PROPERTY OF ETHAN STOCKTON*/
+
+
+
+
+
+div#dash{box-sizing:border-box;border: 5px dashed #000000}
+
+#page{box-sizing:border-box;border: 0px solid #000000}
+/*THIS CODE IS PROPERTY OF ETHAN STOCKTON*/
+#header{font-family:'arial';background:#00000000; text-align:center}
+#header ul#menu{margin:0px;padding:0px;text-align:center}
+#header ul#menu li{list-style:none;padding:20px;display: inline-block;text-align: center}
+
+/*THIS CODE IS PROPERTY OF ETHAN STOCKTON*/
+#header2{font-family:'arial';background:#00000000; text-align:center;}
+#header2 ul#menu{margin:0px;padding:0px;text-align:center}
+#header2 ul#menu li{list-style:none;padding:20px;display: inline-block;text-align: center}
+/*THIS CODE IS PROPERTY OF ETHAN STOCKTON*/
+
+#footer ul#menu2 li{list-style:none;padding:20px;display: inline-block;text-align: center}
+#footer ul#menu2{margin:0px;padding:0px;text-align:center;box-align: center}
+#footer{text-align:center;box-align: center}
+/*THIS CODE IS PROPERTY OF ETHAN STOCKTON*/
+#page ul#menu li{list-style:none;padding:20px;display: inline-block;vertical-align: top;text-align: center}
+/*THIS CODE IS PROPERTY OF ETHAN STOCKTON*/
+#page ul#menu{list-style:none;padding:20px;display: inline-block;text-align: center}
+/*THIS CODE IS PROPERTY OF ETHAN STOCKTON*/
+#itemtray{font-family:'arial';background:#00000000; text-align:center}
+#itemtray ul#menu3{margin:0px;padding:0px;text-align:center}
+#itemtray ul#menu3 li{list-style:none;padding:20px;display: inline-block;text-align: center}
+
+/*THIS CODE IS PROPERTY OF ETHAN STOCKTON*/
+
+
