@@ -18,7 +18,12 @@
     
     <script src="Game2/Build/UnityLoader.js"></script>
     <script>
-	  Access-Control-Allow-Origin: https://listserver.ethanstudios.net;
+	  const xhr = new XMLHttpRequest();
+const url = 'https://listserver.ethanstudios.net';
+
+xhr.open('GET', url);
+xhr.onreadystatechange = someHandler;
+xhr.send();
       var gameInstance = UnityLoader.instantiate("gameContainer", "Game2/Build/472web 3 3.json");
     </script>
   </head>
