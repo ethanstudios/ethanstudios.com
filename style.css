@@ -34,11 +34,20 @@ background-color:#000000;
 
 /*THIS CODE IS PROPERTY OF ETHAN STOCKTON*/
 
-border:#000000 solid 20px;
+/*border:#000000 solid 20px;*/
 /*THIS CODE IS PROPERTY OF ETHAN STOCKTON*/
-margin:0px
+/*margin:0px*/
 /*THIS CODE IS PROPERTY OF ETHAN STOCKTON*/
-}.glow-on-hover {
+}
+
+.boarder{
+	background-color:#000000;
+	border:#000000 solid 20px;
+
+	margin:0px
+}
+
+.glow-on-hover {
     width: 150px;
     height: 30px;
     border: none;
